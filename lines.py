@@ -6,14 +6,14 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 # Load fishing data from CSV and limit to the first 20 entries
-fishing_df = pd.read_csv('/Users/pavly/Downloads/1_-_2023-05-01T00_00_00.000Z2024-05-01T00_00_00.000Z/layer-activity-data-0/public-global-fishing-effort-v20231026.csv').head(20)
+fishing_df = pd.read_csv('public-global-fishing-effort-v20231026.csv').head(20)
 
 # Ensure the correct types for Lat and Lon, if not automatically detected
 fishing_df['Lat'] = pd.to_numeric(fishing_df['Lat'], errors='coerce')
 fishing_df['Lon'] = pd.to_numeric(fishing_df['Lon'], errors='coerce')
 
 # Load ports data from CSV
-ports_df = pd.read_csv('/Users/pavly/Downloads/26c10160-03bd-11ef-8dfc-7dff0eda9712/ports_persian_gulf.csv')
+ports_df = pd.read_csv('ports_persian_gulf.csv')
 
 # Ensure the correct types for Lat and Lon in ports data
 ports_df['lat'] = pd.to_numeric(ports_df['lat'], errors='coerce')
