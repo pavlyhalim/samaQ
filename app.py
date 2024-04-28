@@ -34,7 +34,7 @@ def create_map(fishing_gdf, ports_gdf, num_clusters):
     cluster_centers = kmeans.cluster_centers_
     for center in cluster_centers:
         folium.CircleMarker(
-            location=center,
+            location=(center[0], center[1]),  
             radius=7,
             color='black',
             fill=True,
