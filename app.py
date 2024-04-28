@@ -89,3 +89,6 @@ def app():
 
     map_fishing = create_map(fishing_gdf, ports_gdf, num_clusters)
     folium_static(map_fishing)
+
+if __name__ == '__main__':
+    app()
