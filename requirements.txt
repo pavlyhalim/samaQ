@@ -5,3 +5,4 @@ folium==0.12.1
 scikit-learn
 matplotlib==3.4.3
 seaborn==0.11.2
+streamlit_folium
