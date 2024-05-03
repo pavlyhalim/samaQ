@@ -35,4 +35,4 @@ The web interface allows users to interact with the data, visualize fishing acti
 Data for fishing activities and ports is loaded from CSV files. Users can add new ports, which are saved back to the CSV to persist changes across sessions.
 
 ## License
-This project is released under the MIT License.
+This project is released under Apache License
