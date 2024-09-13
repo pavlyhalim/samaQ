@@ -1,5 +1,4 @@
-
-#SamaQ
+Quantum Annealing solver for the NYUAD Quantum Hackathon 2024.
 
 ## Introduction
 This Streamlit application visualizes global fishing efforts and port connectivity using geospatial data analysis and interactive mapping. It uses data clustering to identify high-activity fishing areas and allows users to dynamically add new port information.
